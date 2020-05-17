@@ -1,0 +1,7 @@
+---
+PORTS:
+  RedisPort: 8903
+  ExpressPort: 8282
+appInfo:
+  name: HTML Resume Editor
+  icon: HRE

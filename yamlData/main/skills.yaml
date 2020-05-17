@@ -1,0 +1,18 @@
+- name: Frontend
+  level: Master
+  keywords:
+    - Angular
+    - React
+    - Vue
+- name: Backend
+  level: Master
+  keywords:
+    - Node.js
+    - Express.js
+    - MongoDB
+- name: Deployment
+  level: Master
+  keywords:
+    - Shipit
+    - MongoDB
+    - Redis

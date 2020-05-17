@@ -1,0 +1,87 @@
+'1':
+  company: Zipari
+  position: Software Engineer
+  website: 'http://zipari.com'
+  startDate: Apr 2017
+  endDate: Mar 2020
+  summary: >-
+    Zipari is a startup helping health insurance companies modernize their
+    stack.
+  highlights:
+    - >-
+      Launched Zipari's Member Portal Product as part of a 3 person front-end
+      team.
+    - >-
+      Built front end using of Angular 5, Webpack, TypeScript, postcss,
+      bootstrap, and SCSS.
+    - 'Worked on back end composed of Django, PostgreSQL, and Redis.'
+    - >-
+      Maintained and Updated deploy scripts with Jenkins for QA and production
+      deployments.
+  notes: []
+  show: true
+'2':
+  company: Progyny
+  position: Software Engineer
+  website: 'http://progyny.com'
+  startDate: Apr 2016
+  endDate: Jan 2017
+  summary: >-
+    Progyny is a healthcare startup helping fertility labs select healthy
+    embryos through machine learning.
+  highlights:
+    - 'Built mobile app using SCSS, Angular, and Ionic hybrid mobile framework.'
+    - >-
+      Worked on Node.js, MongoDB, Express.js, and Passport.js stack on the
+      backend.
+    - >-
+      Created Bookings, Doctors, and Hospitals Rest APIs to integrate with
+      mobile app.
+  notes: []
+  show: true
+'3':
+  company: Blue Zebra
+  position: System Engineer
+  startDate: Oct 2014
+  endDate: Apr 2016
+  summary: "Blue Zebra is a IT Services company providing Technical Support,\_IT strategy and helpdesk support."
+  highlights:
+    - Wrote scripts to spin up AWS and Digital Ocean environments.
+    - Maintained and updated client server infrastructure.
+  notes: []
+  show: true
+'5':
+  company: Traiana
+  position: Application Support
+  startDate: Feb 2012
+  endDate: Sep 2014
+  summary: >-
+    Traiana is a Fin-tech company with a regulatory reporting platform called
+    Harmony.
+  highlights:
+    - >-
+      Worked with client XML trade data and MQ connections within Traiana's
+      Harmony Sass Platform.
+    - >-
+      Used tools such as SQL and Excel to resolve issues for clients and
+      internal teams.
+    - >-
+      Built a dashboard app using JavaScript which helped automate tedious
+      tasks.
+  notes: []
+  show: true
+'6':
+  company: Elite Media Graphics
+  position: System Engineer
+  startDate: Jan 2009
+  endDate: Jan 2012
+  summary: >-
+    Elite Media Graphics was a Brooklyn Design shop specializing in <b>Rails</b>
+    and <b>Wordpress</b> sites.
+  highlights:
+    - Provided networking/desktop support for Windows Machines.
+    - >-
+      Earned praise for teamwork, flexibility and work excellence in providing
+      IT support to clients and internal staff.
+  notes: []
+  show: true

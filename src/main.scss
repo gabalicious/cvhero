@@ -1,0 +1,241 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-vue/src/index.scss";
+
+:root {
+  --main-color: orangered;
+  --icon-color: var(--main-color);
+  --font-family: Helvetica;
+  --blue: #0074d9;
+  --red: #ff4136;
+  --primary: var(--red);
+  --secondary: var(--blue);
+  --debug-primary: pink;
+  --debug-secondary: lightblue;
+  --debug-third: rgba(155, 169, 170, 0.5);
+}
+body {
+  background: #0c1444;
+}
+@media print {
+  button {
+    display: none !important;
+  }
+
+  html body *[contenteditable="true"] {
+    border: white 1px solid;
+    padding: 2.5px;
+  }
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+th {
+  text-align: left;
+  padding-bottom: 4px;
+}
+
+td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+i {
+  color: var(--icon-color);
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-basis: 100%;
+  font-size: 15px;
+}
+
+.header-top-item {
+  display: inline-block;
+  margin: 0 0 0.33rem 0;
+}
+
+article.flex {
+  display: flex;
+}
+
+article.flex .flex-item-54 {
+  flex-basis: 54%;
+}
+article.flex .flex-item-50 {
+  flex-basis: 50%;
+}
+article.flex .flex-item-46 {
+  flex-basis: 46%;
+}
+
+.header-body {
+  border-top: solid var(--main-color) 1px;
+  border-bottom: solid var(--main-color) 1px;
+  padding: 0.75rem 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-basis: 100%;
+}
+
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-main {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.experience-main-top {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.experience-main-body {
+  line-height: 1.25em;
+  margin: 0.33rem 0 0.65rem;
+}
+
+.experience-main-body em {
+  font-weight: 600;
+}
+
+.section-header {
+  display: flex;
+}
+
+.section-header-text {
+  margin: 0.35rem 0 0.65rem;
+  border-bottom: 1px dashed black;
+  padding-bottom: 0.33rem;
+}
+
+/* Footer */
+footer {
+  display: flex;
+}
+
+.footer-left {
+  width: 46%;
+}
+
+.footer-right {
+  width: 54%;
+}
+
+/* Debug css */
+body[debug="true"] > header {
+  background: pink;
+  background: var(--debug-primary);
+}
+
+body[debug="true"] *[class*="-top"] {
+  background: purple;
+  background: var(--debug-primary);
+}
+
+body *[contenteditable="true"] {
+  border: var(--debug-third) 1px dotted;
+  padding: 1.5px;
+}
+
+body *[contenteditable="true"]:hover {
+  background: var(--debug-secondary);
+}
+
+body[debug="true"] *[class*="-body"] {
+  background: green;
+  background: var(--debug-third);
+}
+
+/* Enable Notes Mode */
+body[notes="true"] article {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+body[notes="true"] article .experience-main {
+  width: 60%;
+}
+
+body[notes="true"] .experience-notes {
+  display: block;
+  width: 40%;
+}
+
+body[notes="true"] .section-header-text {
+  display: block;
+  width: 60%;
+}
+
+body[notes="true"] .section-header-text--notes {
+  display: block;
+  width: 40%;
+}
+
+body[notes="false"] .section-header-text--notes {
+  display: none;
+}
+
+body[notes="false"] .experience-notes {
+  display: none;
+}
+
+body[notes="true"] .experience-main {
+  border-right: 1px dotted var(--main-color);
+  padding-right: 5px;
+}
+
+// body[user="justin"] .show-justin {
+//   display: inline-block !important;
+// }
+
+// body[user="jstar"] .show-jstar {
+//   display: inline-block !important;
+// }
+
+.experience-50 i::before {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  font-variant: normal;
+  padding: 2px;
+}
+
+.experience-main-tags {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  padding-left: 3px;
+}
+
+.experience-50 i {
+  color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-image: initial;
+  padding: 3px 3px 3px 0;
+  border-radius: 7px;
+  margin: 0 5px 0 0;
+}

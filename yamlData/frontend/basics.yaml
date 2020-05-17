@@ -1,0 +1,22 @@
+name: Justin Gaba
+label: Frontend Engineer
+picture: ''
+email: justin@gaba.codes
+phone: +1917-682-1439
+website: 'https://gaba.codes'
+summary: "IT professional who has 10+ years of experience in\_Software Engineering, and System Engineering. Strong in Node.js, AWS, Linux, and Heroku. Seeks company that is equally as awesome.\_"
+location:
+  address: 222 Sackett Street
+  postalCode: NY 11231
+  city: Brooklyn
+  countryCode: US
+  region: NY
+profiles:
+  '0':
+    network: Linkedin
+    username: jgaba
+    url: linkedin.com/in/jgaba'
+  '1':
+    network: Github
+    username: jgaba
+    url: github.com/gabalicious

@@ -1,10 +1,9 @@
 <template>
   <span>
     <resume-drop-down></resume-drop-down>
-    test: {{currentResumeIndex}}
     <div class="modal-body">
       <h3>Toggle Experience</h3>
-      <div v-for="job in currentProfile.work" class="modal-body-child">
+      <div v-for="(job,jobIndex) in currentProfile.work" :key="jobIndex" class="modal-body-child">
         {{job.company}} | {{job.show }}
         <b-form-checkbox
           class="flex-inline"
@@ -16,7 +15,11 @@
       </div>
       <h3>Toggle Projects</h3>
 
-      <div v-for="project in currentProfile.projects" class="modal-body-child">
+      <div
+        v-for="(project,projectIndex) in currentProfile.projects"
+        :key="projectIndex"
+        class="modal-body-child"
+      >
         {{project.title}} | {{project.show }}
         <b-form-checkbox
           class="flex-inline"
@@ -35,10 +38,10 @@ import Vue from "vue";
 let vm = Vue.component("toggle-component", {
   computed: {
     currentResumeIndex: {
-      get: function() {
+      get: function () {
         return this.$store.state.currentResumeIndex;
       },
-      set: function(newResumeIndex) {
+      set: function (newResumeIndex) {
         this.$store.commit("selectProfile", newResumeIndex);
       }
     },
@@ -46,7 +49,7 @@ let vm = Vue.component("toggle-component", {
       return this.$store.getters.currentProfile;
     }
   },
-  data: function() {
+  data: function () {
     return {};
   },
   components: {

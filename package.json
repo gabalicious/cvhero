@@ -5,8 +5,8 @@
   "scripts": {
     "start": "nodenv ./bin/www",
     "build": "parcel build src/index.html",
-    "dev": "parcel src/index.html",
-    "dev-server": "NODE_ENV=development nodenv ./bin/www",
+    "watch": "parcel watch src/index.html",
+    "start-dev": "NODE_ENV=development nodenv ./bin/www",
     "deploy": "npx shipit production deploy"
   },
   "dependencies": {

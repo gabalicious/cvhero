@@ -6,7 +6,7 @@ const yamlWrite = require("write-yaml");
 const jsonDiff = require("json-diff");
 
 function writeYaml(data, file) {
-  yamlWrite(file, data, function() {});
+  yamlWrite(file, data, function () {});
 }
 
 function setNewData({ reqBody, oldData, keyValues, keyValueCount }) {
@@ -93,68 +93,7 @@ function mergeData({ reqBody }, oldData) {
   return newData;
 }
 
-// function updateData(file, secondDataKey, body) {
-//   try {
-//     let doc = jsYaml.safeLoad(fs.readFileSync(file, "utf8"));
-//     let data = { ...doc };
-
-//     if (secondDataKey !== null) {
-//       // data[keyValue][secondDataKey] = req.body.data;
-
-//       data[Number(body.dataIndex)][body.dataKey][secondDataKey] = body.data;
-//     } else {
-//       // data[keyValue] = req.body.data;
-
-//       data[Number(body.dataIndex)][body.dataKey] = body.data;
-//     }
-
-//     return { newData: data, oldData: doc };
-
-//     res.end("It worked!");
-//   } catch (e) {}
-// }
-
-// router.post("/save", function(req, res) {
-//   // Get document, or throw exception on error
-//   let dir = process.cwd();
-//   // console.log(req.body);
-//   let data = {};
-//   let { keyValue, directory, filename, secondDataKey } = req.body;
-//   let file = dir + `/yamlData/${directory}/${filename}`;
-//   try {
-//     let doc = jsYaml.safeLoad(fs.readFileSync(file, "utf8"));
-//     console.log("Old Data", "doc");
-//     data = { ...doc };
-//     console.log("file", file);
-//     console.log(
-//       "truey secondDataKey",
-//       req.body.secondDataKey,
-//       req.body.secondDataKey === undefined
-//     );
-//     if (secondDataKey !== -1) {
-//       data[keyValue][secondDataKey] = req.body.data;
-//       // console.log('keyValue', data[keyValue]);
-//       // console.log('secondDataKey', secondDataKey);
-//       // console.log('data', data);
-//       console.log(
-//         "Target: data[keyValue][secondDataKey]",
-//         data[keyValue][secondDataKey]
-//       );
-//       console.log("secondDataKey", secondDataKey);
-//     } else {
-//       data[keyValue] = req.body.data;
-//       console.log("Target: data[keyValue]", data[keyValue]);
-//     }
-//     console.log("New Data", data);
-//     writeYaml(data, file);
-
-//     res.send({ hello: data });
-//   } catch (e) {
-//     console.log(e);
-//   }
-// });
-
-router.post("/save2", function(req, res) {
+router.post("/save2", function (req, res) {
   // Get document, or throw exception on error
   let dir = process.cwd();
   let { directory, filename, keyValue, keyValues } = req.body;
@@ -190,46 +129,5 @@ router.post("/save2", function(req, res) {
     console.log(e);
   }
 });
-// Save Experience
-// router.post("/save/experience", function(req, res) {
-//   let dir = process.cwd();
-//   // console.log(req.body);
-//   let { keyValue, directory, filename, secondDataKey, data } = req.body;
-//   let file = dir + `/yamlData/${directory}/${filename}`;
-//   let body = req.body;
-//   let { newData, oldData } = updateData(file, req.body.secondDataKey, body);
-//   console.log("data", "oldData");
-//   console.log("newdata", "newData");
 
-//   console.log("file", file);
-//   console.log("target ", data);
-//   writeYaml(newData, file);
-
-//   res.send({ hello: newData });
-// });
-// router.post("/save/skills", function(req, res) {
-//   let dir = process.cwd();
-//   // console.log(req.body);
-//   let { keyValue, directory, filename, secondDataKey, data } = req.body;
-//   let file = dir + `/yamlData/${directory}/${filename}`;
-//   let body = req.body;
-//   console.log("secondDataKey:75", req.body.secondDataKey);
-//   let updatedData = updateData(file, req.body.secondDataKey, body);
-//   // writeYaml(updatedData, file);
-
-//   res.end("It worked!");
-// });
-
-// router.post("/save/education", function(req, res) {
-//   let dir = process.cwd();
-//   // console.log(req.body);
-//   let { keyValue, directory, filename, secondDataKey, data } = req.body;
-//   let file = dir + `/yamlData/${directory}/${filename}`;
-//   let body = req.body;
-//   console.log("secondDataKey:75", req.body.secondDataKey);
-//   let updatedData = updateData(file, req.body.secondDataKey, body);
-//   // writeYaml(updatedData, file);
-
-//   res.end("It worked!");
-// });
 module.exports = router;

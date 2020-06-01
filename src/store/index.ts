@@ -97,11 +97,9 @@ export default new Vuex.Store({
     },
     initialiseYaml(state) {
       axios.get('/yamlall').then(function (response: any) {
-        console.log('yamlData', yamlData.frontend.work[5].position)
         let YamlData = response.data;
         console.log('response', YamlData.frontend)
 
-        console.log('response', YamlData.frontend.work[5].position)
         state.yamlData = { ...YamlData }
       })
         .catch(function (error) {

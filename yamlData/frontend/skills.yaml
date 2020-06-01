@@ -11,14 +11,14 @@
   keywords:
     - Node.js
     - Express.js
-    - Python
-    - Rails
+    - MongoDB
     - SQL
+    - Rails
 - name: Systems
   level: Master
   keywords:
     - Linux
-    - Heroku
     - Nginx
+    - Salt
     - Docker
-    - ComptA++ | July 2020
+    - Digital Ocean

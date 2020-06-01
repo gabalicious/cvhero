@@ -1,9 +1,9 @@
 - title: CV Hero
   category: FOSS
   role: contributor
-  url: git.io/fjBul
+  url: gabalicious/cvhero
   start: April 2020
-  repo: git.io/fjBul
+  repo: cvhero.gaba.codes
   description: ""
   summary: >-
     Resume Builder App made using Vue.js, Parcel, and Node.js featuring PDF
@@ -45,16 +45,17 @@
 - title: Pyodide Notebook
   category: FOSS
   role: contributor
-  url: git.io/fjBul
+  url: gabalicious/parcel-pyodide
   start: May 2020
-  repo: git.io/fjBul
+  repo: pyodide.gaba.codes
   description: ""
   summary: >-
-    This project lets you write and run python code in the browser thanks to Pyodide package and WebAssembly. Implemented with Web-workers to acheive great performance and fully integrated with Vue.js.
+    This project lets you write and run python code in the browser thanks to
+    Pyodide package and WebAssembly.
   keywords:
-    - Node.js
     - Express.js
     - Vue.js
     - Vuex
     - Parcel.js
+    - Web Workers
   show: true

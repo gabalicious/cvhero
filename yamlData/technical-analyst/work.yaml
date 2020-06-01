@@ -1,7 +1,6 @@
-'1':
-  company: Zipari
+- company: Zipari
   position: Software Engineer
-  website: 'http://zipari.com'
+  website: "http://zipari.com"
   startDate: Apr 2017
   endDate: Oct 2018
   summary: >-
@@ -20,10 +19,9 @@
     - "Ensured the feasibility of integration with\_Client systems by collaborating with the client's in house development teams."
   notes: []
   show: true
-'2':
-  company: Progyny
+- company: Progyny
   position: Software Engineer
-  website: 'http://progyny.com'
+  website: "http://progyny.com"
   startDate: Apr 2016
   endDate: Jan 2017
   summary: >-
@@ -34,15 +32,14 @@
     - >-
       Built their mobile app using SCSS, Angular, and Ionic hybrid mobile
       framework.
-    - 'Integrated doctors, hospital, and blog Rest APIs with mobile app.'
+    - "Integrated doctors, hospital, and blog Rest APIs with mobile app."
     - >-
       Ensured the technical feasibility of UI/UX designs, by advising the UI/UX
       teams throughout the design process.
     - Progyny's app launched under budget and ahead of schedule.
   notes: []
   show: true
-'3':
-  company: Dev Bootcamp
+- company: Dev Bootcamp
   position: Coding Mentor
   startDate: Nov 2015
   endDate: Apr 2016
@@ -54,8 +51,7 @@
       their projects like Express.js, MongoDB, SCSS, Webpack, and Babel.
   notes: []
   show: true
-'4':
-  company: ConfirmIt
+- company: ConfirmIt
   position: Support Engineer
   startDate: May 2015
   endDate: Oct 2015
@@ -70,8 +66,7 @@
       and capture data from the survey.
   notes: []
   show: true
-'5':
-  company: Traiana
+- company: Traiana
   position: Onboarding Engineer
   startDate: Feb 2012
   endDate: Sep 2014
@@ -90,17 +85,16 @@
     - >-
       Used Salesforce to correspond with clients and keep track of work request
       data.
-    - 'Worked with FIX, MQ, and XML daily.'
+    - "Worked with FIX, MQ, and XML daily."
   notes: []
   show: true
-'6':
-  company: Elite Interactive Group
+- company: Elite Interactive Group
   position: Help Desk
   startDate: Jan 2009
   endDate: Dec 2011
   summary: "Elite Interactive Group\_is a web development shop specializing in Rails, Magento, Drupal, and WordPress applications."
   highlights:
-    - 'Serviced Windows, Mac OS and Linux Computers.'
+    - "Serviced Windows, Mac OS and Linux Computers."
     - >-
       Installed Hardware, Software and did troubleshooting to solve issues form
       the e-ticket queue.

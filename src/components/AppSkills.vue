@@ -18,14 +18,16 @@
           </th>-->
           <app-header-property
             v-for="(item, skillsIndex) in currentProfile.skills"
+            :key="skillsIndex"
             type="th"
             :properties="{ isArray: true, level_one: String(skillsIndex), level_two: 'name' }"
             filename="skills.yaml"
           ></app-header-property>
         </tr>
-        <tr v-for="(item, i) in currentProfile.skills[0]['keywords']">
+        <tr v-for="(item, i) in currentProfile.skills[0]['keywords']" :key="i">
           <app-header-property
             v-for="(item2, j) in currentProfile.skills"
+            :key="j"
             type="td"
             :properties="{ isArray: true, level_one: String(j), level_two: 'keywords',level_three: String(i) }"
             filename="skills.yaml"

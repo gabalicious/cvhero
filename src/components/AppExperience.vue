@@ -16,38 +16,38 @@
             <span>
               <app-header-property
                 type="span"
-                :properties="{ level_one: String(experienceIndex), level_two: 'position' }"
+                :properties="{ isArray: true, level_one: String(experienceIndex), level_two: 'position' }"
                 filename="work.yaml"
               ></app-header-property>,
               <app-header-property
                 type="span"
-                :properties="{ level_one: String(experienceIndex), level_two: 'company' }"
+                :properties="{ isArray: true, level_one: String(experienceIndex), level_two: 'company' }"
                 filename="work.yaml"
               ></app-header-property>
             </span>
             <span>
               <app-header-property
                 type="span"
-                :properties="{ level_one: String(experienceIndex), level_two: 'startDate' }"
+                :properties="{ isArray: true, level_one: String(experienceIndex), level_two: 'startDate' }"
                 filename="work.yaml"
               ></app-header-property>—
               <app-header-property
                 type="span"
-                :properties="{ level_one: String(experienceIndex), level_two: 'endDate' }"
+                :properties="{ isArray: true, level_one: String(experienceIndex), level_two: 'endDate' }"
                 filename="work.yaml"
               ></app-header-property>
             </span>
           </div>
           <app-header-property
             type="p"
-            :properties="{ level_one: String(experienceIndex), level_two: 'summary' }"
+            :properties="{ isArray: true, level_one: String(experienceIndex), level_two: 'summary' }"
             filename="work.yaml"
           ></app-header-property>
           <ul v-if="workItem.highlights.length">
             <app-header-property
               v-for="(highlight, highlightIndex) in workItem.highlights"
               type="li"
-              :properties="{ level_one: String(experienceIndex), level_two: 'highlights', level_three: String(highlightIndex)}"
+              :properties="{ isArray: true, level_one: String(experienceIndex), level_two: 'highlights', level_three: String(highlightIndex)}"
               filename="work.yaml"
             ></app-header-property>
           </ul>

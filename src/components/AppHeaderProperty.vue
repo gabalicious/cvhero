@@ -8,7 +8,8 @@
     @keydown.enter="endEdit"
   >{{propertyValue}}</h1>
   <a
-    :href="'https://'+ propertyValue"
+    :href="formattedUrl"
+    target="_blank"
     contenteditable
     v-else-if="type==='a'"
     @blur="onEdit"
@@ -90,6 +91,11 @@ let vm = Vue.component("app-header-property", {
           properties.level_two
         ];
       return currentProfile[levelZero][property];
+    },
+    formattedUrl() {
+      return this.github === true
+        ? `https://github.com/${this.propertyValue}`
+        : `https://${this.propertyValue}`;
     }
   },
   methods: {
@@ -115,7 +121,8 @@ let vm = Vue.component("app-header-property", {
     filename: String,
     properties: Object,
     type: String,
-    className: String
+    className: String,
+    github: Boolean
   }
 });
 

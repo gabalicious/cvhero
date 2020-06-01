@@ -6,6 +6,7 @@
     <section
       v-show="project.show"
       v-for="(project, projectsIndex) in currentProfile.projects"
+      :key="projectsIndex"
       class="experience-50"
     >
       <div class="experience-main">
@@ -22,15 +23,27 @@
           :properties="{ isArray: true, level_one: String(projectsIndex), level_two: 'summary' }"
           filename="projects.yaml"
         ></app-header-property>
-        <p class="experience-main-link">
-          <span>Github:&nbsp;</span>
-          <app-header-property
-            type="a"
-            :properties="{ isArray: true, level_one: String(projectsIndex), level_two: 'repo' }"
-            filename="projects.yaml"
-          ></app-header-property>
-        </p>
-        <p>
+
+        <div class="project-link-wrapper">
+          <p class="project-link">
+            <span>Github:&nbsp;</span>
+            <app-header-property
+              type="a"
+              :github="true"
+              :properties="{ isArray: true, level_one: String(projectsIndex), level_two: 'url' }"
+              filename="projects.yaml"
+            ></app-header-property>
+          </p>
+          <p class="project-link">
+            <span>Demo:&nbsp;</span>
+            <app-header-property
+              type="a"
+              :properties="{ isArray: true, level_one: String(projectsIndex), level_two: 'repo' }"
+              filename="projects.yaml"
+            ></app-header-property>
+          </p>
+        </div>
+        <p class="project-main-link">
           <span>
             Last Updated:&nbsp
             <app-header-property
@@ -41,7 +54,7 @@
           </span>
         </p>
         <p class="experience-main-tags">
-          <i v-for="(keywords, keywordsIndex) in project.keywords">
+          <i v-for="(keywords, keywordsIndex) in project.keywords" :key="keywordsIndex">
             <app-header-property
               v-html="keywords"
               type="span"
@@ -62,12 +75,12 @@ import AppHeaderProperty from "./AppHeaderProperty.vue";
 
 // Rename from resume-body to resume-projects
 let vm = Vue.component("app-projects", {
-  data: function() {
+  data: function () {
     return {
-      showProjects: function() {
+      showProjects: function () {
         console.log(this.currentProfile);
         let result = this.currentProfile.projects.some(
-          project => project.show === true
+          (project) => project.show === true
         );
         return result;
       }
@@ -108,6 +121,16 @@ export default vm;
 
 <style lang="scss" scoped>
 #projects {
+  .project-link-wrapper {
+    display: flex;
+    flex-basis: 100%;
+    margin-bottom: 8px;
+    .project-link {
+      margin: 0;
+      margin-right: 20px;
+    }
+  }
+
   display: flex;
   flex-wrap: wrap;
   .section-header {

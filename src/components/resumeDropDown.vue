@@ -6,7 +6,11 @@
       v-on:change="selectProfile(currentResumeIndex)"
       class="form-control"
     >
-      <option v-for="option in profileDictionary" v-bind:value="option.value">{{ option.text }}</option>
+      <option
+        v-for="(option,index) in profileDictionary"
+        v-bind:value="option.value"
+        :key="index"
+      >{{ option.text }}</option>
     </select>
   </div>
 </template>

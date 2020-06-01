@@ -3,7 +3,7 @@
     <div class="section-header">
       <h3 class="section-header-text">Education</h3>
     </div>
-    <section v-for="(item, i) in currentProfile.education" class="experience">
+    <section v-for="(item, i) in currentProfile.education" :key="i" class="experience">
       <div class="education-main">
         <div class="experience-main-top">
           <app-header-property
@@ -33,6 +33,7 @@
 
           <app-header-property
             v-for="(course, j) in item.courses"
+            :key="j"
             type="span"
             :properties="{ level_one: String(i), level_two: 'courses', level_three: String(j) }"
             filename="education.yaml"

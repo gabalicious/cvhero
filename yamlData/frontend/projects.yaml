@@ -1,10 +1,10 @@
 - title: CV Hero
   category: FOSS
   role: contributor
-  url: git.io/fjBul
+  url: gabalicious/cvhero
   start: April 2020
-  repo: git.io/fjBul
-  description: ""
+  repo: cvhero.gaba.codes
+  description: ''
   summary: >-
     Resume Builder App made using Vue.js, Parcel, and Node.js featuring PDF
     generation and the ability to edit multiple resumes.
@@ -19,7 +19,7 @@
   url: git.io/fjBul
   start: May 2019
   repo: git.io/fjBul
-  description: ""
+  description: ''
   summary: >-
     Demo E-commerce store built with React, Strapi CMS, and Snipcart.  Check out
     the github link to see a video of the CMS experience.
@@ -34,7 +34,7 @@
   url: git.io/fjBTW
   start: April 2019
   repo: git.io/fjBTW
-  description: ""
+  description: ''
   summary: >-
     Combines Express.js w/ node-red to allow me to control my smart home with
     flows. Works w/ my Sonos, Phillips Hue, + more.
@@ -45,16 +45,17 @@
 - title: Pyodide Notebook
   category: FOSS
   role: contributor
-  url: git.io/fjBul
+  url: gabalicious/parcel-pyodide
   start: May 2020
-  repo: git.io/fjBul
-  description: ""
+  repo: pyodide.gaba.codes
+  description: ''
   summary: >-
-    This project lets you write and run python code in the browser thanks to Pyodide package and WebAssembly. Implemented with Web-workers to acheive great performance and fully integrated with Vue.js.
+    This project lets you write and run python code in the browser thanks to
+    Pyodide package and WebAssembly.
   keywords:
-    - Node.js
     - Express.js
     - Vue.js
     - Vuex
     - Parcel.js
+    - Web Workers
   show: true

@@ -2,32 +2,46 @@
   <span>
     <resume-drop-down></resume-drop-down>
     <div class="modal-body">
-      <h3>Toggle Experience</h3>
-      <div v-for="(job,jobIndex) in currentProfile.work" :key="jobIndex" class="modal-body-child">
-        {{job.company}} | {{job.show }}
-        <b-form-checkbox
-          class="flex-inline"
-          v-on:change="updateYaml(job)"
-          v-model="job.show"
-          switch
-          size="lg"
-        ></b-form-checkbox>
+      <h3>Experience</h3>
+      <div
+        v-for="(job, jobIndex) in currentProfile.work"
+        :key="'j'+jobIndex"
+        class="modal-body-child"
+      >
+        {{job.company}}
+        <div>
+          <b-form-checkbox
+            class="flex-inline"
+            v-on:change="updateYaml(job)"
+            v-model="job.show"
+            switch
+            size="lg"
+          ></b-form-checkbox>
+          <a href="#">
+            <i class="fas fa-trash-alt"></i>
+          </a>
+        </div>
       </div>
-      <h3>Toggle Projects</h3>
+      <h3>Projects</h3>
 
       <div
         v-for="(project,projectIndex) in currentProfile.projects"
-        :key="projectIndex"
+        :key="'p'+projectIndex"
         class="modal-body-child"
       >
-        {{project.title}} | {{project.show }}
-        <b-form-checkbox
-          class="flex-inline"
-          v-on:change="updateYaml(project)"
-          v-model="project.show"
-          switch
-          size="lg"
-        ></b-form-checkbox>
+        {{project.title}}
+        <div>
+          <b-form-checkbox
+            class="flex-inline"
+            v-on:change="updateYaml(project)"
+            v-model="project.show"
+            switch
+            size="lg"
+          ></b-form-checkbox>
+          <a href="#">
+            <i class="fas fa-trash-alt"></i>
+          </a>
+        </div>
       </div>
     </div>
   </span>

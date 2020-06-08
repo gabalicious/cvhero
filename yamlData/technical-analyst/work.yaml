@@ -1,6 +1,6 @@
 - company: Zipari
   position: Software Engineer
-  website: "http://zipari.com"
+  website: 'http://zipari.com'
   startDate: Apr 2017
   endDate: Oct 2018
   summary: >-
@@ -21,7 +21,7 @@
   show: true
 - company: Progyny
   position: Software Engineer
-  website: "http://progyny.com"
+  website: 'http://progyny.com'
   startDate: Apr 2016
   endDate: Jan 2017
   summary: >-
@@ -32,38 +32,31 @@
     - >-
       Built their mobile app using SCSS, Angular, and Ionic hybrid mobile
       framework.
-    - "Integrated doctors, hospital, and blog Rest APIs with mobile app."
-    - >-
-      Ensured the technical feasibility of UI/UX designs, by advising the UI/UX
-      teams throughout the design process.
+    - 'Integrated doctors, hospital, and blog Rest APIs with mobile app.'
     - Progyny's app launched under budget and ahead of schedule.
+  notes: []
+  show: true
+- company: Blue Zebra
+  position: System Engineer
+  startDate: May 2015
+  endDate: Mar 2016
+  summary: "Blue Zebra is a IT Services company providing Technical Support,\_IT strategy and helpdesk support."
+  highlights:
+    - Wrote scripts to spin up AWS and Digital Ocean environments.
+    - Maintained and updated client's server infrastructure with Salt.
+    - Perform Data migrations for SQL and Mongo Databases
   notes: []
   show: true
 - company: Dev Bootcamp
   position: Coding Mentor
-  startDate: Nov 2015
-  endDate: Apr 2016
+  startDate: Nov 2014
+  endDate: May 2015
   summary: Dev Bootcamp was an immersive 19-week coding bootcamp.
   highlights:
     - Assisted students with Ruby on Rails & JavaScript challenges.
     - >-
       Showed students how to incorporate cutting edge development tools into
       their projects like Express.js, MongoDB, SCSS, Webpack, and Babel.
-  notes: []
-  show: true
-- company: ConfirmIt
-  position: Support Engineer
-  startDate: May 2015
-  endDate: Oct 2015
-  summary: "Confirmit has a survey platform that services market research firms and fortune 500 companies.\_"
-  highlights:
-    - Developed surveys for clients using Confirmit's Survey platform.
-    - >-
-      Corresponded with clients via telephone and email to resolve issues with
-      surveys and and work on client requests.
-    - >-
-      Used Javascript and CSS customize client's survey, implement survey logic,
-      and capture data from the survey.
   notes: []
   show: true
 - company: Traiana
@@ -85,7 +78,7 @@
     - >-
       Used Salesforce to correspond with clients and keep track of work request
       data.
-    - "Worked with FIX, MQ, and XML daily."
+    - 'Worked with FIX, MQ, and XML daily.'
   notes: []
   show: true
 - company: Elite Interactive Group
@@ -94,10 +87,9 @@
   endDate: Dec 2011
   summary: "Elite Interactive Group\_is a web development shop specializing in Rails, Magento, Drupal, and WordPress applications."
   highlights:
-    - "Serviced Windows, Mac OS and Linux Computers."
+    - 'Serviced Windows, Mac OS and Linux Computers.'
     - >-
       Installed Hardware, Software and did troubleshooting to solve issues form
       the e-ticket queue.
-    - Ensured servers were running smoothly.
   notes: []
   show: true

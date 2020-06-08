@@ -49,4 +49,12 @@ export default vm;
 </script>
 
 <style lang="scss" scoped>
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-body-select-text {
+  width: 75px;
+}
 </style>

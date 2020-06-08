@@ -2,7 +2,7 @@
   position: Software Engineer
   website: 'http://zipari.com'
   startDate: Apr 2017
-  endDate: Mar 2020
+  endDate: Oct 2018
   summary: >-
     Zipari is a startup helping health insurance companies modernize their
     stack.
@@ -15,8 +15,8 @@
       bootstrap, and SCSS.
     - 'Worked on back end composed of Django, PostgreSQL, and Redis.'
     - >-
-      Maintained and Updated deploy scripts with Jenkins for QA and production
-      deployments.
+      Maintained and Updated deploy scripts with Jenkins for testing and
+      production deployments.
   notes: []
   show: true
 - company: Progyny
@@ -45,6 +45,7 @@
   highlights:
     - Wrote scripts to spin up AWS and Digital Ocean environments.
     - Maintained and updated client's server infrastructure with Salt.
+    - Perform Data migrations for SQL and Mongo Databases.
   notes: []
   show: true
 - company: Traiana
@@ -62,11 +63,11 @@
       Used tools such as SQL and Excel to resolve issues for clients and
       internal teams.
     - >-
-      Built JavaScript app to pull Salesforce data and Client configuration data
-      to allow analysts to detect issues with trades.
+      Built JavaScript app on my own time to pull Salesforce data and Client
+      configuration data which allowed analysts to detect issues with trades.
   notes: []
   show: true
-- company: Elite Media Graphics
+- company: Elite Interactive Group
   position: System Engineer
   startDate: Jan 2009
   endDate: Jan 2012
@@ -75,8 +76,9 @@
     and <b>Wordpress</b> sites.
   highlights:
     - >-
-      Provided networking/desktop support for Windows, Mac OS and Linux
-      Computers.
+      Ghosted Windows and Mac OS Operating systems with company software and
+      network settings.
     - 'Installed Hardware, Software and resolved issues from the e-ticket system.'
+    - Deployed Rails and Wordpress applications to production.
   notes: []
   show: true

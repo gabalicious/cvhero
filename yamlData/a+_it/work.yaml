@@ -2,7 +2,7 @@
   position: Software Engineer
   website: 'http://zipari.com'
   startDate: Apr 2017
-  endDate: Mar 2020
+  endDate: Oct 2018
   summary: >-
     Zipari is a startup helping health insurance companies modernize their
     stack.
@@ -43,8 +43,9 @@
   endDate: Apr 2016
   summary: "Blue Zebra is a IT Services company providing Technical Support,\_IT strategy and helpdesk support."
   highlights:
-    - Wrote scripts to spin up AWS and Digital Ocean environments.
-    - Maintained and updated client server infrastructure.
+    - Troubleshoot issues with on-site server or cloud server infrastructure.
+    - Maintained and updated Linux server production environments with Salt.
+    - Performed Data migrations for SQL and Mongo Databases.
   notes: []
   show: true
 - company: Traiana
@@ -64,10 +65,10 @@
     - >-
       Built Javascript client side app to compare Salesforce case data with
       Client configuration data to allow analysts to detect issues with setups
-      before trades even take place.
+      before trades even took place.
   notes: []
   show: true
-- company: Elite Media Graphics
+- company: Elite Interactive Group
   position: System Engineer
   startDate: Jan 2009
   endDate: Jan 2012
@@ -76,7 +77,11 @@
     and <b>Wordpress</b> sites.
   highlights:
     - >-
-      Provided networking/desktop support for Windows, Mac OS and Linux
-      Computers.
+      Ghosted Windows and Mac OS Operating systems with company software and
+      network settings.
+    - 'Installed Hardware, Software and resolved issues from the e-ticket system.'
+    - >-
+      Deployed Rails and Wordpress applications to Linux production
+      environemnts.
   notes: []
   show: true

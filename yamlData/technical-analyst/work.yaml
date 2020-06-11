@@ -1,8 +1,20 @@
+- company: Freelance
+  position: Software Engineer
+  website: 'http://gaba.codes'
+  startDate: Oct 2018
+  endDate: Present
+  summary: 'Working with a mix of dev-ops, backend and frontend techonologies.'
+  highlights:
+    - 'Using Ubuntu, SSL, Nginx, and Gzip compression in production.'
+    - Build projects using React and Vue.js.
+    - 'Work on backend composed of Node.js, Express.js, SQL and/or MongoDB.'
+  notes: []
+  show: true
 - company: Zipari
   position: Software Engineer
   website: 'http://zipari.com'
   startDate: Apr 2017
-  endDate: Mar 2020
+  endDate: Oct 2018
   summary: >-
     Zipari is a startup helping health insurance companies modernize their
     stack.
@@ -92,4 +104,4 @@
       Installed Hardware, Software and did troubleshooting to solve issues form
       the e-ticket queue.
   notes: []
-  show: true
+  show: false

@@ -7,12 +7,24 @@ let router = new VueRouter({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: '/resumedemo',
       component: () => import('../views/dashboard'),
     },
     {
       path: '/resume/:id',
       component: () => import('../views/resume'),
+    },
+    {
+      path: '/login',
+      component: () => import('../views/login'),
+    },
+    {
+      path: '/register',
+      component: () => import('../views/register'),
+    },
+    {
+      path: '/',
+      component: () => import('../views/cover'),
     }
   ]
 });

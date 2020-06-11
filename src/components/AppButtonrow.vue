@@ -2,7 +2,7 @@
   <div class="button-container no-print">
     <a :href="`/api/pdf/render/${currentResumeIndex}`">
       <i class="fas fa-file-pdf" v-bind:class="[isActive ? activeClass : defaultClass]"></i>
-      Print
+      Print PDF
     </a>
 
     <a href="#" v-b-modal.modal-1 @mouseover="isActive = true" @mouseleave="isActive = false">
@@ -70,6 +70,7 @@ export default vm;
   a {
     width: 100%;
     display: block;
+    color: wheat;
   }
 }
 </style>

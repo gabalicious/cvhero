@@ -1,0 +1,4 @@
+{
+  "dev": "http://localhost:8282",
+  "prod": "https://cvhero.gaba.codes"
+}

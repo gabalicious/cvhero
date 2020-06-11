@@ -6,21 +6,19 @@ const RenderPDF = require("chrome-headless-render-pdf");
 
 // Set Host
 let hosts = JSON.parse(
-  fs.readFileSync(
-    path.join(__dirname, "..", "..", "config", "express-config.json")
-  )
+  fs.readFileSync(path.join(__dirname, "..", "config", "express-config.json"))
 );
 let host;
 if (process.env.NODE_ENV === "development") host = hosts.dev;
 else host = hosts.prod;
 
 // Live render pdf route.
-router.get("/render/:id", function(req, res) {
+router.get("/render/:id", function (req, res) {
   let id = req.params.id;
   let start = new Date();
   let hrstart = process.hrtime();
 
-  RenderPDF.generatePdfBuffer(`${host}/resume/${id}`).then(pdfBuffer => {
+  RenderPDF.generatePdfBuffer(`${host}/resume/${id}`).then((pdfBuffer) => {
     console.log(pdfBuffer);
     res.contentType("application/pdf");
     res.send(pdfBuffer);
@@ -32,7 +30,7 @@ router.get("/render/:id", function(req, res) {
   });
 });
 // Debug Route
-router.get("/render/:id/debug", function(req, res) {
+router.get("/render/:id/debug", function (req, res) {
   let id = req.params.id;
   let start = new Date();
   let hrstart = process.hrtime();
@@ -40,13 +38,13 @@ router.get("/render/:id/debug", function(req, res) {
   res.json({ id, host, pdf: `${host}/resume/${id}` });
 });
 // Download Route
-router.get("/dl/:id", function(req, res) {
+router.get("/dl/:id", function (req, res) {
   let id = req.params.id;
   let start = new Date();
   let hrstart = process.hrtime();
   let simulateTime = 5;
 
-  RenderPDF.generatePdfBuffer(`${host}/resume/${id}`).then(pdfBuffer => {
+  RenderPDF.generatePdfBuffer(`${host}/resume/${id}`).then((pdfBuffer) => {
     console.log(pdfBuffer);
     res.writeHead(200, {
       "Content-Type": "application/pdf",
@@ -62,7 +60,7 @@ router.get("/dl/:id", function(req, res) {
   });
 });
 // Test Route
-router.get("/test", function(req, res) {
+router.get("/test", function (req, res) {
   res.sendFile(path.join(__dirname, "..", "..", "test.pdf"));
 });
 module.exports = router;

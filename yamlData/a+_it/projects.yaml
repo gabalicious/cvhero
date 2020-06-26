@@ -12,7 +12,7 @@
     - Express.js
     - Vue.js
     - Vuex
-  show: true
+  show: false
 - title: Romani Comics
   category: FOSS
   role: contributor
@@ -58,4 +58,4 @@
     - Vuex
     - Parcel.js
     - Web Workers
-  show: true
+  show: false

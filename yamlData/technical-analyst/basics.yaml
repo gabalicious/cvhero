@@ -1,9 +1,9 @@
 name: Justin Gaba
 label: Application Support
-picture: ''
+picture: ""
 email: justin@gaba.codes
 phone: +1917-682-1439
-website: 'https://gaba.codes'
+website: "gaba.codes"
 summary: >-
   IT professional with 10+ years of experience in the Finance and Healthcare
   industries, having had various Software Engineering and Problem Solving roles
@@ -15,11 +15,11 @@ location:
   countryCode: US
   region: NY
 profiles:
-  '0':
+  "0":
     network: Linkedin
     username: jgaba
     url: linkedin.com/in/jgaba'
-  '1':
+  "1":
     network: Github
     username: jgaba
     url: github.com/gabalicious

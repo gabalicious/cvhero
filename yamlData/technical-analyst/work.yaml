@@ -1,13 +1,17 @@
 - company: Freelance
-  position: Software Engineer
+  position: Customer Support
   website: 'http://gaba.codes'
   startDate: Oct 2018
   endDate: Present
-  summary: 'Working with a mix of dev-ops, backend and frontend techonologies.'
+  summary: >-
+    Using my impeccable communication skills + Excel, JavaScript, SQL, and
+    Pythons skills to resolve issues for customers.
   highlights:
-    - 'Using Ubuntu, SSL, Nginx, and Gzip compression in production.'
-    - Build projects using React and Vue.js.
-    - 'Work on backend composed of Node.js, Express.js, SQL and/or MongoDB.'
+    - >-
+      Use Excel, Javascript, Python, and SQL to get the best answers for
+      customers.
+    - Correspond with customers daily via Email and Telephone.
+    - Recommended time and again by customers.
   notes: []
   show: true
 - company: Zipari
@@ -54,7 +58,7 @@
   endDate: Mar 2016
   summary: "Blue Zebra is a IT Services company providing Technical Support,\_IT strategy and helpdesk support."
   highlights:
-    - Wrote scripts to spin up AWS and Digital Ocean environments.
+    - Wrote scripts to manage AWS and Digital Ocean environments.
     - Maintained and updated client's server infrastructure with Salt.
     - Perform Data migrations for SQL and Mongo Databases
   notes: []
@@ -86,7 +90,9 @@
     - >-
       Used tools such as SQL and Excel to resolve issues from clients and
       internal teams.
-    - "Created Excel\_VBA script\_to pull data from SQL and Salesforce so internal users could easily analyze trade data from production applications in order to spot errors. Later built concept dashboard app in JavaScript with similar features.\_"
+    - >-
+      Created concept tools on my own time with Javascript to help save time and
+      prevent errors onboarding clients.
     - >-
       Used Salesforce to correspond with clients and keep track of work request
       data.
@@ -97,11 +103,10 @@
   position: Help Desk
   startDate: Jan 2009
   endDate: Dec 2011
-  summary: "Elite Interactive Group\_is a web development shop specializing in Rails, Magento, Drupal, and WordPress applications."
+  summary: "Elite Interactive Group\_was a retail electronics store."
   highlights:
     - 'Serviced Windows, Mac OS and Linux Computers.'
-    - >-
-      Installed Hardware, Software and did troubleshooting to solve issues form
-      the e-ticket queue.
+    - Backup and repair IOS and Android phones.
+    - Recommended time and again by customers.
   notes: []
-  show: false
+  show: true

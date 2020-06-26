@@ -1,18 +1,18 @@
 - company: Freelance
   position: Software Engineer
-  website: 'http://gaba.codes'
+  website: "gaba.codes"
   startDate: Oct 2018
   endDate: Present
-  summary: 'Working with a mix of dev-ops, backend and frontend techonologies.'
+  summary: "Working with a mix of dev-ops, backend, and frontend technologies."
   highlights:
-    - 'Using Ubuntu, SSL, Nginx, and Gzip compression in production.'
-    - Build projects using React and Vue.js.
-    - 'Work on backend composed of Node.js, Express.js, SQL and/or MongoDB.'
+    - "Using Ubuntu, SSL, Nginx, and Gzip compression in production."
+    - Build frontend with React or Vue.js.
+    - "Work on backends using Rails or Node.js w/ Express.js."
   notes: []
   show: true
 - company: Zipari
   position: Software Engineer
-  website: 'http://zipari.com'
+  website: "zipari.com"
   startDate: Apr 2017
   endDate: Oct 2018
   summary: >-
@@ -25,7 +25,7 @@
     - >-
       Built front end using of Angular 5, Webpack, TypeScript, postcss,
       bootstrap, and SCSS.
-    - 'Worked on back end composed of Django, PostgreSQL, and Redis.'
+    - "Worked on back end composed of Django, PostgreSQL, and Redis."
     - >-
       Maintained and Updated deploy scripts with Jenkins for testing and
       production deployments.
@@ -33,14 +33,14 @@
   show: true
 - company: Progyny
   position: Software Engineer
-  website: 'http://progyny.com'
+  website: "progyny.com"
   startDate: Apr 2016
   endDate: Jan 2017
   summary: >-
     Progyny is a healthcare startup helping fertility labs select healthy
     embryos through machine learning.
   highlights:
-    - 'Built mobile app using SCSS, Angular, and Ionic hybrid mobile framework.'
+    - "Built mobile app using SCSS, Angular, and Ionic hybrid mobile framework."
     - >-
       Worked on Node.js, MongoDB, Express.js, and Passport.js stack on the
       backend.
@@ -55,7 +55,7 @@
   endDate: Apr 2016
   summary: "Blue Zebra is a IT Services company providing Technical Support,\_IT strategy and helpdesk support."
   highlights:
-    - Wrote scripts to spin up AWS and Digital Ocean environments.
+    - Wrote scripts to manage AWS and Digital Ocean environments.
     - Maintained and updated client's server infrastructure with Salt.
     - Perform Data migrations for SQL and Mongo Databases.
   notes: []
@@ -73,10 +73,9 @@
       Harmony Sass Platform.
     - >-
       Used tools such as SQL and Excel to resolve issues for clients and
-      internal teams.
-    - >-
-      Built JavaScript app on my own time to pull Salesforce data and Client
-      configuration data which allowed analysts to detect issues with trades.
+      internal teams. Built JavaScript app on my own time which took Salesforce
+      data and Client configuration data to allow me to detect issues with
+      trades.
   notes: []
   show: true
 - company: Elite Interactive Group
@@ -90,7 +89,7 @@
     - >-
       Ghosted Windows and Mac OS Operating systems with company software and
       network settings.
-    - 'Installed Hardware, Software and resolved issues from the e-ticket system.'
+    - "Installed Hardware, Software and resolved issues from the e-ticket system."
     - Deployed Rails and Wordpress applications to production.
   notes: []
   show: false

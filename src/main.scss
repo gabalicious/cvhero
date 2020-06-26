@@ -1,6 +1,19 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~bootstrap-vue/src/index.scss";
-
+.bg-heyui {
+  background: #22222290;
+  background: linear-gradient(135deg, #770024 0%, #17355a 60%, #2f2896 100%);
+}
+.bg-darker {
+  background: #ffffff35;
+}
+.bg-heyui-modal {
+  animation: pop-open 0.1s both;
+  top: 100px;
+}
+.overlay {
+  overflow: hidden;
+}
 :root {
   --main-color: orangered;
   --icon-color: var(--main-color);
@@ -56,6 +69,9 @@ i {
   width: 100%;
   flex-basis: 100%;
   font-size: 15px;
+  font-size: calc(0.33vw + 0.33vh + 1vmin);
+
+  font-size: max(calc(0.33vw + 0.33vh + 1vmin), 14px);
 }
 
 .header-top-item {
@@ -104,6 +120,9 @@ article.flex .flex-item-46 {
   margin: 0;
   font-weight: 600;
   font-size: 18px;
+  font-size: calc(0.4vw + 0.4vh + 1vmin);
+
+  font-size: max(calc(0.4vw + 0.4vh + 1vmin), 15px);
 }
 
 .experience-main-body {
@@ -226,6 +245,9 @@ body[notes="true"] .experience-main {
   display: flex;
   flex-wrap: wrap;
   font-size: 16px;
+  font-size: calc(0.33vw + 0.33vh + 1vmin);
+
+  font-size: max(calc(0.33vw + 0.33vh + 1vmin), 14px);
   padding-left: 3px;
 }
 

@@ -24,33 +24,18 @@
       <!-- editable number -->
       <span>
         <i class="fas fa-mobile-alt"></i>
-        <app-header-property type="span" property="phone" filename="basics.yaml"></app-header-property>
+        <app-header-property :phone-link="true" type="a" property="phone" filename="basics.yaml"></app-header-property>
       </span>
       <!-- editable email -->
       <span>
         <i class="far fa-envelope"></i>
-        <!-- <a
-          contenteditable
-          @blur="onEdit"
-          @keydown.enter="endEdit"
-          data-key="email"
-          :href="`mailto:${currentProfile.basics.email}`"
-          target="_blank"
-        >{{ currentProfile.basics.email }}</a>-->
-        <app-header-property type="a" property="email" filename="basics.yaml"></app-header-property>
+
+        <app-header-property :email-link="true" type="a" property="email" filename="basics.yaml"></app-header-property>
       </span>
       <!-- editable website -->
       <span>
         <i class="fas fa-link"></i>
         <app-header-property type="a" property="website" filename="basics.yaml"></app-header-property>
-        <!-- <a
-          contenteditable
-          @blur="onEdit"
-          @keydown.enter="endEdit"
-          data-key="website"
-          :href="currentProfile.basics.website"
-          target="_blank"
-        >{{ currentProfile.basics.website }}</a>-->
       </span>
       <!-- editable github -->
       <span>
@@ -86,17 +71,17 @@ let vm = Vue.component("app-header", {
     currentProfile() {
       return this.$store.getters.currentProfile;
     },
-    mailTo: function() {
+    mailTo: function () {
       // return `${this.basics.email}x?subject=Re:Loved your resume&body=Hi ${
       //   this.basics.name.split("")[0]
       // },`;
       return 0;
     },
-    social: function() {
+    social: function () {
       let newSocialObject = {};
       this.currentProfile.basics.profiles.forEach((jsonItem, i) => {
         newSocialObject[jsonItem.network] = jsonItem;
-        newSocialObject[jsonItem.network]["shortUrl"] = (function() {
+        newSocialObject[jsonItem.network]["shortUrl"] = (function () {
           return newSocialObject[jsonItem.network]["url"].replace(
             "https://www.",
             ""

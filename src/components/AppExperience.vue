@@ -116,7 +116,9 @@ export default vm;
 
 <style lang="scss" scoped>
 .experience-main-top {
-  font-size: 20px;
+  font-size: calc(0.3vw + 0.3vh + 1vmin);
+
+  font-size: max(calc(0.3vw + 0.3vh + 1vmin), 12px);
 }
 ul {
   margin: 0 7px;
@@ -130,7 +132,8 @@ p {
 }
 ul,
 p {
-  font-size: 19px;
+  font-size: calc(0.3vw + 0.3vh + 1vmin);
+  font-size: max(calc(0.3vw + 0.3vh + 1vmin), 12px);
 }
 section {
   margin-bottom: 5px;

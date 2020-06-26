@@ -4,15 +4,21 @@
     - Angular
     - React
     - Vue
+    - Parcel
+    - Webpack
 - name: Backend
   level: Master
   keywords:
     - Node.js
     - Express.js
     - MongoDB
-- name: Deployment
+    - SQL
+    - Rails
+- name: Systems
   level: Master
   keywords:
-    - Shipit
-    - MongoDB
-    - Redis
+    - Linux
+    - Nginx
+    - Salt
+    - Docker
+    - DigitalOcean

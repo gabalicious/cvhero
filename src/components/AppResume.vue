@@ -59,24 +59,39 @@ main {
   height: 100vh;
 }
 @media only screen {
-  .resume-container {
-    outline: 5px solid hsl(0, 0%, 60%);
+  .resume-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      135deg,
+      rgba(39, 55, 105, 0.5) 0%,
+      rgba(223, 104, 25, 0.5) 65%,
+      rgba(58, 142, 145, 0.5) 100%
+    );
+    border: 4px solid transparent;
+    border-radius: 8px;
+    background-clip: padding-box;
+  }
 
+  .resume-container::-webkit-scrollbar {
+    width: 16px;
+  }
+  .resume-container {
     /* #4 AND INFINITY!!! (CSS3 only) */
-    box-shadow: 0 0 0 10px hsl(0, 0%, 80%), 0 0 0 15px hsl(0, 0%, 90%);
+    box-shadow: 0 0 0 3px rgba(206, 214, 238, 0.9),
+      0 0 0 7px rgba(124, 124, 124, 0.9);
     background: white;
-    width: 1107px;
+    width: 100%;
     padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
-    height: 11in;
-    overflow: scroll;
 
-    -webkit-transform: scale(0.65);
-    transform: scale(0.65);
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
+    max-height: calc(100vh - 180px);
+    overflow: overlay;
+    border-radius: 20px;
+    // -webkit-transform: scale(0.65);
+    // transform: scale(0.65);
+    // -webkit-transform-origin: 0 0;
+    // transform-origin: 0 0;
   }
 }
 </style>

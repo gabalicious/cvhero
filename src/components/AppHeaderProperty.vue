@@ -102,9 +102,11 @@ let vm = Vue.component("app-header-property", {
       return currentProfile[levelZero][property];
     },
     formattedUrl() {
+      console.log('email', this.emailLink)
+      console.log('phone', this.phoneLink)
       return this.github === true
         ? `https://github.com/${this.propertyValue}`
-        : `https://${this.propertyValue}`;
+        : this.emailLink===true ? `mailto:${this.propertyValue}` : this.phoneLink===true ? `tel:${this.propertyValue}` : `https://${this.propertyValue}`;
     }
   },
   methods: {
@@ -151,7 +153,9 @@ let vm = Vue.component("app-header-property", {
     properties: Object,
     type: String,
     className: String,
-    github: Boolean
+    github: Boolean,
+    phoneLink: Boolean,
+    emailLink: Boolean,
   }
 });
 
@@ -169,5 +173,8 @@ export default vm;
   display: none;
 
   position: absolute;
+}
+h1 {
+  font-size: calc(1vw + 1vh + 1vmin);
 }
 </style>

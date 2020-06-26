@@ -12,13 +12,13 @@
     - Node.js
     - Express.js
     - MongoDB
-    - SQL
+    - PostgreSQL
     - Rails
 - name: Systems
   level: Master
   keywords:
     - Linux
     - Nginx
-    - Salt
-    - Docker
     - AWS
+    - Docker
+    - DigitalOcean

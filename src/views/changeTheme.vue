@@ -41,7 +41,7 @@
         <b-col xl="1"></b-col>
         <b-col xl="10">
           <span class="fix-height">
-            <app-resume></app-resume>
+            <change-theme></change-theme>
           </span>
         </b-col>
         <b-col xl="1"></b-col>
@@ -53,14 +53,14 @@
 <script lang="ts">
 import Vue from "vue";
 
-import AppResume from "../components/AppResume.vue";
+import ChangeTheme from "../components/settings/ChangeTheme.vue";
 import NavigtionHeader from "../components/NavigtionHeader.vue";
 import AppButtonrow from "../components/AppButtonrow.vue";
 
 export default Vue.extend({
   components: {
     child: {
-      AppResume,
+      ChangeTheme,
       NavigtionHeader,
       AppButtonrow
     }

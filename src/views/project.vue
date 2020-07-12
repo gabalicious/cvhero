@@ -41,7 +41,7 @@
         <b-col xl="1"></b-col>
         <b-col xl="10">
           <span class="fix-height">
-            <app-resume></app-resume>
+            <crud-project></crud-project>
           </span>
         </b-col>
         <b-col xl="1"></b-col>
@@ -53,14 +53,14 @@
 <script lang="ts">
 import Vue from "vue";
 
-import AppResume from "../components/AppResume.vue";
+import CrudProject from "../components/data-components/CrudProject.vue";
 import NavigtionHeader from "../components/NavigtionHeader.vue";
 import AppButtonrow from "../components/AppButtonrow.vue";
 
 export default Vue.extend({
   components: {
     child: {
-      AppResume,
+      CrudProject,
       NavigtionHeader,
       AppButtonrow
     }

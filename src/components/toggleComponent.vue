@@ -1,6 +1,5 @@
 <template>
   <span>
-    <resume-drop-down></resume-drop-down>
     <div class="modal-body">
       <h3>Experience</h3>
       <div
@@ -67,12 +66,9 @@ let vm = Vue.component("toggle-component", {
     return {};
   },
   components: {
-    child: {
-      resumeDropDown
-    }
+    child: {}
   }
 });
-import resumeDropDown from "./resumeDropDown.vue";
 
 export default vm;
 </script>

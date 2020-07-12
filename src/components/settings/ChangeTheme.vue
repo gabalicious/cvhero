@@ -1,11 +1,11 @@
 <template>
   <span class="main-container" v-if="currentProfile">
     <main class="resume-container">
-      <app-header></app-header>
-      <app-profile></app-profile>
-      <app-experience></app-experience>
-      <app-middle-block></app-middle-block>
-      <app-projects></app-projects>
+      <h2 class="text-dark">
+        <i class="fas fas-secondary fa-database"></i> Change Theme
+      </h2>
+      <hr />
+      <div class="bg-main">Coming Soon.</div>
     </main>
   </span>
   <span v-else>Fail</span>
@@ -13,15 +13,15 @@
 
 <script lang="ts">
 import Vue from "vue";
-import AppButtonrow from "./AppButtonrow.vue";
-import AppHeader from "./AppHeader.vue";
-import AppProjects from "./AppProjects.vue";
-import resumeFooter from "./resumeFooter.vue";
-import AppProfile from "./AppProfile.vue";
-import AppExperience from "./AppExperience.vue";
-import AppMiddleBlock from "./AppMiddleBlock.vue";
+// import AppButtonrow from "./AppButtonrow.vue";
+// import AppHeader from "./AppHeader.vue";
+// import AppProjects from "./AppProjects.vue";
+// import resumeFooter from "./resumeFooter.vue";
+// import AppProfile from "./AppProfile.vue";
+// import AppExperience from "./AppExperience.vue";
+// import AppMiddleBlock from "./AppMiddleBlock.vue";
 
-let vm = Vue.component("app-resume", {
+let vm = Vue.component("change-theme", {
   computed: {
     currentProfile() {
       console.log(this.resumeId);
@@ -33,15 +33,7 @@ let vm = Vue.component("app-resume", {
   },
 
   components: {
-    child: {
-      AppButtonrow,
-      AppHeader,
-      AppProjects,
-      resumeFooter,
-      AppProfile,
-      AppExperience,
-      AppMiddleBlock
-    }
+    child: {}
   },
   props: {
     resumeId: String
@@ -55,6 +47,18 @@ export default vm;
 main {
   margin-top: 25px;
 }
+.bg-main {
+  background-color: #f8f9fa60;
+  min-height: 65vh;
+  padding: 20px;
+  border-radius: 17px;
+  box-shadow: 0 0 0 1px rgba(206, 214, 238, 0.9),
+    0 0 0 0px rgba(124, 124, 124, 0.9);
+}
+
+.fas-secondary {
+  color: #45d18b;
+}
 .main-container {
   height: 100vh;
 }
@@ -66,6 +70,7 @@ main {
       rgba(223, 104, 25, 0.5) 65%,
       rgba(58, 142, 145, 0.5) 100%
     );
+    background: white;
     border: 4px solid transparent;
     border-radius: 8px;
     background-clip: padding-box;
@@ -76,16 +81,16 @@ main {
   }
   .resume-container {
     /* #4 AND INFINITY!!! (CSS3 only) */
-    box-shadow: 0 0 0 3px rgba(206, 214, 238, 0.9),
-      0 0 0 7px rgba(124, 124, 124, 0.9);
-    background: white;
+    box-shadow: 0 0 0 1px rgba(206, 214, 238, 0.9),
+      0 0 0 0px rgba(124, 124, 124, 0.9);
+
     width: 100%;
     padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
 
-    max-height: calc(100vh - 15vh);
+    min-height: calc(100vh - 5vh - 104px);
     overflow: overlay;
     border-radius: 20px;
     // -webkit-transform: scale(0.65);

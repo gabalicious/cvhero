@@ -1,6 +1,6 @@
 <template>
   <div class="button-container form-group no-print modal-body-select">
-    <div class="modal-body-select-text">Select</div>
+    <div class="modal-body-select-text text-light">Select</div>
     <select
       v-model="currentResumeIndex"
       v-on:change="selectProfile(currentResumeIndex)"

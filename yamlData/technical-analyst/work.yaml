@@ -1,17 +1,14 @@
 - company: Freelance
-  position: Customer Support
+  position: Technology Consultant
   website: 'http://gaba.codes'
   startDate: Oct 2018
   endDate: Present
   summary: >-
-    Using my impeccable communication skills + Excel, JavaScript, SQL, and
-    Pythons skills to resolve issues for customers.
+    Using my technology experience and listening skills to help businesses
+    discover great solutions.
   highlights:
-    - >-
-      Use Excel, Javascript, Python, and SQL to get the best answers for
-      customers.
-    - Correspond with customers daily via Email and Telephone.
-    - Recommended time and again by customers.
+    - "Finding leads through Craigslist, Upwork, Guru.com,\_Fiverr, and other platforms."
+    - Mentoring programmers on codementor.com.
   notes: []
   show: true
 - company: Zipari
@@ -24,11 +21,8 @@
     stack.
   highlights:
     - >-
-      Launched Zipari's Member Portal Product as part of a 3 person front-end
-      team.
-    - >-
-      Worked on front end composed of of Angular 5, Webpack, TypeScript,
-      postcss, bootstrap, and SCSS.
+      Build front end composed of of Angular 5, Webpack, TypeScript, postcss,
+      bootstrap, and SCSS.
     - >-
       Implemented various REST apis on the frontend for use with forms, tables,
       user data and other parts of the UI.
@@ -44,23 +38,22 @@
     Progyny is a healthcare startup helping fertility labs select healthy
     embryos through machine learning.
   highlights:
-    - Technical lead for agile mobile app team.
-    - >-
-      Built their mobile app using SCSS, Angular, and Ionic hybrid mobile
-      framework.
+    - 'Built mobile app using SCSS, Angular, and Ionic hybrid mobile framework.'
     - 'Integrated doctors, hospital, and blog Rest APIs with mobile app.'
     - Progyny's app launched under budget and ahead of schedule.
   notes: []
   show: true
 - company: Blue Zebra
-  position: System Engineer
+  position: IT Specialist
   startDate: May 2015
   endDate: Mar 2016
   summary: "Blue Zebra is a IT Services company providing Technical Support,\_IT strategy and helpdesk support."
   highlights:
     - Wrote scripts to manage AWS and Digital Ocean environments.
     - Maintained and updated client's server infrastructure with Salt.
-    - Perform Data migrations for SQL and Mongo Databases
+    - >-
+      Performed production deployments for Rails, Django, and Node.js
+      applications.
   notes: []
   show: true
 - company: Dev Bootcamp
@@ -69,10 +62,12 @@
   endDate: May 2015
   summary: Dev Bootcamp was an immersive 19-week coding bootcamp.
   highlights:
-    - Assisted students with Ruby on Rails & JavaScript challenges.
     - >-
-      Showed students how to incorporate cutting edge development tools into
-      their projects like Express.js, MongoDB, SCSS, Webpack, and Babel.
+      Assisted students with Ruby & JavaScript Algorithm and Data structure
+      problems .
+    - >-
+      Showed students how to deploy their Frontend, Rails, and Node.js projects
+      to production.
   notes: []
   show: true
 - company: Traiana
@@ -84,19 +79,17 @@
     Harmony.
   highlights:
     - >-
-      Was responsible for onboarding 50-100 client accounts per day by inputting
-      business rules, data mappings, and client connection details into
-      Harmony's Sass admin UI.
+      Configured client accounts daily by inputting business rules, data
+      mappings, and client connection details in Harmony Admin.
     - >-
       Used tools such as SQL and Excel to resolve issues from clients and
       internal teams.
     - >-
-      Created concept tools on my own time with Javascript to help save time and
-      prevent errors onboarding clients.
+      Created concept tools on my own time with JavaScript to help identify and
+      resolve issues with onboarding process.
     - >-
       Used Salesforce to correspond with clients and keep track of work request
       data.
-    - 'Worked with FIX, MQ, and XML daily.'
   notes: []
   show: true
 - company: Elite Interactive Group
@@ -107,6 +100,5 @@
   highlights:
     - 'Serviced Windows, Mac OS and Linux Computers.'
     - Backup and repair IOS and Android phones.
-    - Recommended time and again by customers.
   notes: []
-  show: true
+  show: false

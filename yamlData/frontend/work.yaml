@@ -1,18 +1,18 @@
 - company: Freelance
   position: Software Engineer
-  website: "gaba.codes"
+  website: gaba.codes
   startDate: Oct 2018
   endDate: Present
   summary: "Working with a mix of dev-ops, backend, and frontend technologies."
   highlights:
-    - "Using Ubuntu, SSL, Nginx, and Gzip compression in production."
-    - Build frontend with React or Vue.js.
-    - "Work on backends using Rails or Node.js w/ Express.js."
+    - "Use Ubuntu, SSL, Nginx, and Gzip compression in production."
+    - Build frontends using React and Vue.js.
+    - "Work on Rails and Node.js w/ Express.js\_backends."
   notes: []
   show: true
 - company: Zipari
   position: Software Engineer
-  website: "zipari.com"
+  website: zipari.com
   startDate: Apr 2017
   endDate: Oct 2018
   summary: >-
@@ -26,14 +26,11 @@
       Built front end using of Angular 5, Webpack, TypeScript, postcss,
       bootstrap, and SCSS.
     - "Worked on back end composed of Django, PostgreSQL, and Redis."
-    - >-
-      Maintained and Updated deploy scripts with Jenkins for testing and
-      production deployments.
   notes: []
   show: true
 - company: Progyny
   position: Software Engineer
-  website: "progyny.com"
+  website: progyny.com
   startDate: Apr 2016
   endDate: Jan 2017
   summary: >-
@@ -51,13 +48,17 @@
   show: true
 - company: Blue Zebra
   position: System Engineer
-  startDate: Oct 2014
+  startDate: Apr 2015
   endDate: Apr 2016
   summary: "Blue Zebra is a IT Services company providing Technical Support,\_IT strategy and helpdesk support."
   highlights:
     - Wrote scripts to manage AWS and Digital Ocean environments.
-    - Maintained and updated client's server infrastructure with Salt.
-    - Perform Data migrations for SQL and Mongo Databases.
+    - >-
+      Maintained and Updated deploy scripts for production environments with
+      Salt.
+    - >-
+      Performed production deployments for Rails, Django, and Node.js
+      applications.
   notes: []
   show: true
 - company: Traiana
@@ -69,13 +70,15 @@
     Harmony.
   highlights:
     - >-
-      Worked with client XML trade data and MQ connections within Traiana's
+      Configured client XML trade attributes and MQ connections within Traiana's
       Harmony Sass Platform.
     - >-
       Used tools such as SQL and Excel to resolve issues for clients and
-      internal teams. Built JavaScript app on my own time which took Salesforce
-      data and Client configuration data to allow me to detect issues with
-      trades.
+      internal teams.
+    - >-
+      Built JavaScript app on my own time which meshed Salesforce data and
+      Client configuration data from Harmony to allow me to easily identify and
+      resolve issues with trades.
   notes: []
   show: true
 - company: Elite Interactive Group

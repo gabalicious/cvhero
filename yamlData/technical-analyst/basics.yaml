@@ -1,13 +1,10 @@
 name: Justin Gaba
 label: Application Support
-picture: ""
+picture: ''
 email: justin@gaba.codes
-phone: +1917-682-1439
-website: "gaba.codes"
-summary: >-
-  IT professional with 10+ years of experience in the Finance and Healthcare
-  industries, having had various Software Engineering and Problem Solving roles
-  along the way.
+phone: +1-917-682-1439
+website: gaba.codes
+summary: "FinTech Support Engineer turned Software Engineer. Strong with Rails, SQL, Node.js, Vue.js, Angular, React, Linux, DigitalOcean, and AWS.\_"
 location:
   address: 222 Sackett Street
   postalCode: NY 11231
@@ -15,11 +12,11 @@ location:
   countryCode: US
   region: NY
 profiles:
-  "0":
+  '0':
     network: Linkedin
     username: jgaba
     url: linkedin.com/in/jgaba'
-  "1":
+  '1':
     network: Github
     username: jgaba
     url: github.com/gabalicious

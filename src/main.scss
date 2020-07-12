@@ -101,13 +101,28 @@ article.flex .flex-item-46 {
   justify-content: space-between;
   width: 100%;
   flex-basis: 100%;
+  flex-wrap: wrap;
+}
+.header-body > span {
+  width: fit-content;
 }
 
+@media (min-width: 1024px) {
+  .header-body {
+    flex-wrap: nowrap;
+  }
+  .header-body > span {
+    width: auto;
+  }
+}
 .experience {
   display: flex;
   flex-wrap: wrap;
 }
-
+.resume-container {
+  background: white;
+  color: black;
+}
 .experience-main {
   width: 100%;
   box-sizing: border-box;

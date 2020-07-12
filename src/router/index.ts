@@ -11,6 +11,38 @@ let router = new VueRouter({
       component: () => import('../views/dashboard'),
     },
     {
+      path: '/resumedemo/basicdata/',
+      component: () => import('../views/basicData'),
+    },
+    {
+      path: '/resumedemo/certificate/',
+      component: () => import('../views/certificate'),
+    },
+    {
+      path: '/resumedemo/addremove/',
+      component: () => import('../views/addRemove'),
+    },
+    {
+      path: '/resumedemo/changetheme/',
+      component: () => import('../views/changeTheme'),
+    },
+    {
+      path: '/resumedemo/project/',
+      component: () => import('../views/project'),
+    },
+    {
+      path: '/resumedemo/education/',
+      component: () => import('../views/education'),
+    },
+    {
+      path: '/resumedemo/skill/',
+      component: () => import('../views/skill'),
+    },
+    {
+      path: '/resumedemo/workhistory/',
+      component: () => import('../views/work'),
+    },
+    {
       path: '/resume/:id',
       component: () => import('../views/resume'),
     },

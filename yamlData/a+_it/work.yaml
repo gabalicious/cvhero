@@ -1,13 +1,18 @@
 - company: Freelance
-  position: Software Engineer
+  position: IT Generalist
   website: 'http://gaba.codes'
   startDate: Oct 2018
   endDate: Present
-  summary: 'Working with a mix of dev-ops, backend, and frontend technologies.'
+  summary: Working with a mix of dev-ops and software technologies.
   highlights:
-    - 'Using Ubuntu, SSL, Nginx, and Gzip compression in production.'
-    - Build frontends using React or Vue.js.
-    - "Work on Rails or Node.js w/ Express.js\_backends."
+    - >-
+      Taking on a mix of IT, Application Support, and Software Engineer short
+      gigs.
+    - 'Worked with many environments including Mac, Windows, and Ubuntu/Linux.'
+    - "Configure server racks,\_set up small business networks,\_ and run low voltage wirings as a contractor."
+    - >-
+      Working on a Restaurant Online ordering System subscription product to be
+      launched 2021.
   notes: []
   show: true
 - company: Zipari

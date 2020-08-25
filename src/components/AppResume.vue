@@ -85,13 +85,16 @@ main {
     padding-bottom: 30px;
     padding-left: 30px;
 
-    max-height: calc(100vh - 15vh);
-    overflow: overlay;
+    max-height: calc(85vh / 1.05);
+    overflow: auto;
     border-radius: 20px;
     // -webkit-transform: scale(0.65);
     // transform: scale(0.65);
     // -webkit-transform-origin: 0 0;
     // transform-origin: 0 0;
+    @media only screen and (max-width: 920px) {
+      max-height: calc(85vh / 1.04);
+    }
   }
 }
 </style>

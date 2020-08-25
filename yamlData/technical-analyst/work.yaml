@@ -1,19 +1,19 @@
 - company: Freelance
   position: Technology Consultant
-  website: 'http://gaba.codes'
+  website: "http://gaba.codes"
   startDate: Oct 2018
   endDate: Present
-  summary: >-
-    Using my technology experience and listening skills to help businesses
-    discover great solutions.
+  summary: Using technical experience to help businesses solve challenges.
   highlights:
-    - "Finding leads through Craigslist, Upwork, Guru.com,\_Fiverr, and other platforms."
-    - Mentoring programmers on codementor.com.
+    - "Taking on a mix of IT, Application Support, and Software Engineer Roles."
+    - Working on Restaurant POS/Online ordering System to be launched 2021.
+    - Also configuring server racks and run low voltage wiring as a contractor.
+    - "Set up Jira Support to reply to online ordering\_platform customers."
   notes: []
   show: true
 - company: Zipari
   position: Software Engineer
-  website: 'http://zipari.com'
+  website: "http://zipari.com"
   startDate: Apr 2017
   endDate: Oct 2018
   summary: >-
@@ -31,15 +31,15 @@
   show: true
 - company: Progyny
   position: Software Engineer
-  website: 'http://progyny.com'
+  website: "http://progyny.com"
   startDate: Apr 2016
   endDate: Jan 2017
   summary: >-
     Progyny is a healthcare startup helping fertility labs select healthy
     embryos through machine learning.
   highlights:
-    - 'Built mobile app using SCSS, Angular, and Ionic hybrid mobile framework.'
-    - 'Integrated doctors, hospital, and blog Rest APIs with mobile app.'
+    - "Built mobile app using SCSS, Angular, and Ionic hybrid mobile framework."
+    - "Integrated doctors, hospital, and blog Rest APIs with mobile app."
     - Progyny's app launched under budget and ahead of schedule.
   notes: []
   show: true
@@ -50,7 +50,6 @@
   summary: "Blue Zebra is a IT Services company providing Technical Support,\_IT strategy and helpdesk support."
   highlights:
     - Wrote scripts to manage AWS and Digital Ocean environments.
-    - Maintained and updated client's server infrastructure with Salt.
     - >-
       Performed production deployments for Rails, Django, and Node.js
       applications.
@@ -82,7 +81,7 @@
       Configured client accounts daily by inputting business rules, data
       mappings, and client connection details in Harmony Admin.
     - >-
-      Used tools such as SQL and Excel to resolve issues from clients and
+      Used tools such as SQL and Excel to help resolve issues from clients and
       internal teams.
     - >-
       Created concept tools on my own time with JavaScript to help identify and
@@ -98,7 +97,7 @@
   endDate: Dec 2011
   summary: "Elite Interactive Group\_was a retail electronics store."
   highlights:
-    - 'Serviced Windows, Mac OS and Linux Computers.'
+    - "Serviced Windows, Mac OS and Linux Computers."
     - Backup and repair IOS and Android phones.
   notes: []
   show: false

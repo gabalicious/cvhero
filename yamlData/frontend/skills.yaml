@@ -1,9 +1,9 @@
 - name: Frontend
   level: Master
   keywords:
-    - Angular
-    - React
     - Vue
+    - Vuex
+    - React
     - Parcel
     - Webpack
 - name: Backend

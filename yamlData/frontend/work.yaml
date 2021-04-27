@@ -1,14 +1,18 @@
 - company: Freelance
-  position: Software Engineer
+  position: Software Engineer + Project Manager
   website: gaba.codes
   startDate: Oct 2018
   endDate: Present
-  summary: 'Working with a mix of dev-ops, backend, and frontend technologies.'
+  summary: >-
+    Working with customers in healthcare, restaurant, and other high-tech
+    industries.
   highlights:
-    - 'Maintain Ubuntu, SSL, and Nginx in production.'
-    - Build frontends using React & Vue.js and backends with Node.js & Express.
-    - Working on Restaurant POS/Online ordering System to be launched 2021.
-    - "Also configuring server racks,\_setting up small business networks,\_and running low voltage wiring as a contractor."
+    - >-
+      Developing a restaurant ordering system w/ Node.js, PostgreSQL on backend
+      and Vue.js on frontend for clients.
+    - "Producing a React Native Waze clone for iOS and Android for a client.\_"
+    - Created a resume editing app which generates nice looking PDF resumes.
+    - Using DigitalOcean and AWS to host applications in the cloud.
   notes: []
   show: true
 - company: Zipari
@@ -21,12 +25,21 @@
     stack.
   highlights:
     - >-
-      Launched Zipari's Member Portal Product as part the front-end product
+      Launched Zipari's Member Portal product as part of the frontend product
       team.
+    - "Built frontend using Angular 5,\_Ngrx,\_Webpack, TypeScript,\_PostCSS, Bootstrap, and SCSS within a Django Environment."
     - >-
-      Built front end using of Angular 5, Webpack, TypeScript, postcss,
-      bootstrap, and SCSS.
-    - 'Worked on back end composed of Django, PostgreSQL, and Redis.'
+      Worked closely with backend teams to implement claims, benefits, and chat
+      frontend modules.
+    - >-
+      Collaborated with UX teams in order to carry out their designs to
+      perfection for Desktop and Mobile.
+    - >-
+      Maintained Angular 1.x projects making sure applications rendered
+      correctly on major platforms and browsers including IE11.
+    - >-
+      Employed Jenkins for facilitating continuous integration, continuous
+      delivery, and deployments.
   notes: []
   show: true
 - company: Progyny
@@ -38,20 +51,34 @@
     Progyny is a healthcare startup helping fertility labs select healthy
     embryos through machine learning.
   highlights:
-    - 'Built mobile app using SCSS, Angular, and Ionic hybrid mobile framework.'
     - >-
-      Worked on Node.js, MongoDB, Express.js, and Passport.js stack on the
-      backend.
+      Lead team of developers in developing a mobile app w/ Ionic for iOS and
+      Android, successfully launching app in 6 weeks time.
+    - 'Worked on Rails, PostgresSQL, and Angular.js stack.'
     - >-
-      Created Bookings, Doctors, and Hospitals Rest APIs to integrate with
-      mobile app.
+      Used Appium/Selenium for automated testing and Karma for unit tests
+      providing 90% test coverage.
+  notes: []
+  show: true
+- company: Dev Bootcamp
+  position: Coding Mentor
+  startDate: Apr 2015
+  endDate: Apr 2016
+  summary: 'Mentored students and gave them the confidence they need to succeed. '
+  highlights:
+    - >-
+      Helped students understand how to write integration tests using Capybara
+      and Rspec for Rails.
+    - >-
+      Assisted students in learning ES6, React, and other cutting edge
+      JavaScript libraries at the time.
   notes: []
   show: true
 - company: Blue Zebra
   position: System Engineer
   startDate: Apr 2015
   endDate: Apr 2016
-  summary: "Blue Zebra is an IT Services company providing Technical Support,\_IT strategy and helpdesk support."
+  summary: "Blue Zebra is an IT Services company providing Technical Support,\_IT strategy and Helpdesk support."
   highlights:
     - Wrote scripts to manage AWS and Digital Ocean environments.
     - >-
@@ -61,7 +88,7 @@
       Performed production deployments for Rails, Django, and Node.js
       applications.
   notes: []
-  show: true
+  show: false
 - company: Traiana
   position: Application Support
   startDate: Feb 2012
@@ -72,28 +99,36 @@
   highlights:
     - >-
       Configured client XML trade attributes and MQ connections within Traiana's
-      Harmony Sass Platform.
+      Harmony SaaS GUI.
     - >-
       Used tools such as SQL and Excel to resolve issues for clients and
       internal teams.
+    - "Corresponded with clients via phone and email to gather requirements and resolve issues according to SLA\_commitment."
+  notes: []
+  show: true
+- company: Flextronics
+  position: Technical Support
+  startDate: June 2011
+  endDate: Jan 2012
+  summary: >-
+    Flextronics administered support for Verizon Wireless corporate retail
+    stores.
+  highlights:
+    - "Provided customers with support for their Android, IOS, Blackberry, Windows, Palm phones, and mobile hotspots.\_"
     - >-
-      Built JavaScript app on my own time which meshed Salesforce data and
-      Client configuration data from Harmony to allow me to easily identify and
-      resolve issues with trades.
+      Corresponded with Level 2 support when issues could not be resolved with
+      the tools provided.
   notes: []
   show: true
 - company: Elite Interactive Group
-  position: System Engineer
+  position: Project Manager
   startDate: Jan 2009
-  endDate: Jan 2012
+  endDate: June 2011
   summary: >-
     Elite Media Graphics was a Brooklyn Design shop specializing in <b>Rails</b>
     and <b>Wordpress</b> sites.
   highlights:
-    - >-
-      Ghosted Windows and Mac OS Operating systems with company software and
-      network settings.
-    - 'Installed Hardware, Software and resolved issues from the e-ticket system.'
-    - Deployed Rails and Wordpress applications to production.
+    - Gathered client requirements for new features.
+    - Corresponded with developers to ensure completion of new features.
   notes: []
-  show: false
+  show: true

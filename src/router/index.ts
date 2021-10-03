@@ -10,6 +10,7 @@ let router = new VueRouter({
       path: '/resumedemo',
       component: () => import('../views/dashboard'),
     },
+
     {
       path: '/resumedemo/basicdata/',
       component: () => import('../views/basicData'),
@@ -44,6 +45,10 @@ let router = new VueRouter({
     },
     {
       path: '/resume/:id',
+      component: () => import('../views/resume'),
+    },
+    {
+      path: '/resume_mongo/:id',
       component: () => import('../views/resume'),
     },
     {

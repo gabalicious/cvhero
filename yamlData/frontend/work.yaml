@@ -1,17 +1,40 @@
+- company: Contractor for Apple
+  position: Technical Support Representative
+  website: apple.com
+  startDate: May 2021
+  endDate: Present
+  summary: Provide Technical Support to customers calling Apple 800 line.
+  highlights:
+    - >-
+      Provide Support for features and issues related to Mac OS, Windows, iOS,
+      iPadOS, WatchOS, accessories, Apple id, and iCloud products.
+    - >-
+      Connect with customers over screen share to provide the best possible
+      support experience.
+    - >-
+      Assist customers with troubleshooting wi-fi, bluetooth, cellular, and
+      other issues.
+    - >-
+      Receive tons of satisfied reviews from customer surveys and exceeding
+      performance goals set by Company.
+  notes: []
+  show: true
 - company: Freelance
-  position: Software Engineer + Project Manager
+  position: Software Engineer Manager
   website: gaba.codes
   startDate: Oct 2018
   endDate: Present
   summary: >-
-    Working with customers in healthcare, restaurant, and other high-tech
+    Working to gain clients in healthcare, restaurant, and other high-tech
     industries.
   highlights:
     - >-
-      Developing a restaurant ordering system w/ Node.js, PostgreSQL on backend
-      and Vue.js on frontend for clients.
-    - "Producing a React Native Waze clone for iOS and Android for a client.\_"
-    - Created a resume editing app which generates nice looking PDF resumes.
+      Developed concept restaurant ordering system w/ Node.js, PostgreSQL on
+      backend and Vue.js on frontend for a client.
+    - "Produced a concept React Native Waze like app for iOS and Android for a client.\_"
+    - >-
+      Created a resume editing app which generates nice looking PDF and Word
+      DocX resumes.
     - Using DigitalOcean and AWS to host applications in the cloud.
   notes: []
   show: true
@@ -25,8 +48,8 @@
     stack.
   highlights:
     - >-
-      Launched Zipari's Member Portal product as part of the frontend product
-      team.
+      Launched Zipari's Member Portal product as part of the frontend
+      engineering team.
     - "Built frontend using Angular 5,\_Ngrx,\_Webpack, TypeScript,\_PostCSS, Bootstrap, and SCSS within a Django Environment."
     - >-
       Worked closely with backend teams to implement claims, benefits, and chat
@@ -36,7 +59,8 @@
       perfection for Desktop and Mobile.
     - >-
       Maintained Angular 1.x projects making sure applications rendered
-      correctly on major platforms and browsers including IE11.
+      correctly on major platforms and browsers including IE11. Later upgraded
+      modules to Angular 5
     - >-
       Employed Jenkins for facilitating continuous integration, continuous
       delivery, and deployments.
@@ -90,20 +114,23 @@
   notes: []
   show: false
 - company: Traiana
-  position: Application Support
+  position: "Integrations & Data Analytics Engineer\_"
   startDate: Feb 2012
   endDate: Sep 2014
   summary: >-
-    Traiana is a Fin-tech company with a regulatory reporting platform called
-    Harmony.
+    Traiana is a Fin-tech company with a currency trading clearing house
+    platform for matching trades called Harmony.
   highlights:
     - >-
-      Configured client XML trade attributes and MQ connections within Traiana's
-      Harmony SaaS GUI.
+      Configured client integration details, XML trade attributes, and MQ
+      connections within Traiana's integration layer.
     - >-
-      Used tools such as SQL and Excel to resolve issues for clients and
-      internal teams.
-    - "Corresponded with clients via phone and email to gather requirements and resolve issues according to SLA\_commitment."
+      Worked with Harmony SaaS GUI to configure legal entities, legal
+      relationships, entity IDs, and other entity data.
+    - >-
+      Used tools such as SQL and Excel to build reports and also resolve issues
+      for clients and internal teams.
+    - "Corresponded with clients via phone and email to gather requirements and meet SLA\_commitments in contracts."
   notes: []
   show: true
 - company: Flextronics
@@ -128,7 +155,9 @@
     Elite Media Graphics was a Brooklyn Design shop specializing in <b>Rails</b>
     and <b>Wordpress</b> sites.
   highlights:
-    - Gathered client requirements for new features.
+    - >-
+      Gathered client requirements for new features and set expectations for
+      implementation.
     - Corresponded with developers to ensure completion of new features.
   notes: []
   show: true

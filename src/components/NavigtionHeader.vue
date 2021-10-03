@@ -1,7 +1,7 @@
 <template>
   <header>
-    <b-container fluid :style="{padding: 0}">
-      <b-navbar toggleable="lg" type="dark" variant="danger">
+    <b-container fluid :style="{ padding: 0 }">
+      <b-navbar toggleable="lg" type="dark" :variant="accent">
         <b-navbar-brand to="/">
           cvhero
           <span class="beta-text">beta</span>
@@ -23,7 +23,8 @@
                 class="my-2 my-sm-0"
                 size="sm"
                 variant="primary"
-              >Sign In</b-button>
+                >Sign In</b-button
+              >
             </b-nav-item>
             <b-nav-item>
               <b-button
@@ -31,7 +32,8 @@
                 class="my-2 my-sm-0"
                 size="sm"
                 variant="secondary"
-              >Register</b-button>
+                >Register</b-button
+              >
             </b-nav-item>
           </b-navbar-nav>
         </b-collapse>
@@ -45,6 +47,13 @@ import Vue from "vue";
 let vm = Vue.component("navigation-header", {
   data: function () {
     return {};
+  },
+  props: {
+    // Basic type check (`null` and `undefined` values will pass any type validation)
+    accent: {
+      type: String,
+      default: "danger"
+    }
   },
   methods: {
     signIn() {

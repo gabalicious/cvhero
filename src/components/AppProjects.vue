@@ -13,14 +13,22 @@
         <div class="experience-main-top block">
           <app-header-property
             type="span"
-            :properties="{ isArray: true, level_one: String(projectsIndex), level_two: 'title' }"
+            :properties="{
+              isArray: true,
+              level_one: String(projectsIndex),
+              level_two: 'title'
+            }"
             filename="projects.yaml"
           ></app-header-property>
         </div>
         <!-- <p class="experience-main-body">{{ project.summary }}</p> -->
         <app-header-property
           type="p"
-          :properties="{ isArray: true, level_one: String(projectsIndex), level_two: 'summary' }"
+          :properties="{
+            isArray: true,
+            level_one: String(projectsIndex),
+            level_two: 'summary'
+          }"
           filename="projects.yaml"
         ></app-header-property>
 
@@ -30,7 +38,11 @@
             <app-header-property
               type="a"
               :github="true"
-              :properties="{ isArray: true, level_one: String(projectsIndex), level_two: 'url' }"
+              :properties="{
+                isArray: true,
+                level_one: String(projectsIndex),
+                level_two: 'url'
+              }"
               filename="projects.yaml"
             ></app-header-property>
           </p>
@@ -38,7 +50,11 @@
             <span>Demo:&nbsp;</span>
             <app-header-property
               type="a"
-              :properties="{ isArray: true, level_one: String(projectsIndex), level_two: 'repo' }"
+              :properties="{
+                isArray: true,
+                level_one: String(projectsIndex),
+                level_two: 'repo'
+              }"
               filename="projects.yaml"
             ></app-header-property>
           </p>
@@ -48,18 +64,30 @@
             Last Updated:&nbsp
             <app-header-property
               type="span"
-              :properties="{ isArray: true, level_one: String(projectsIndex), level_two: 'start' }"
+              :properties="{
+                isArray: true,
+                level_one: String(projectsIndex),
+                level_two: 'start'
+              }"
               filename="projects.yaml"
             ></app-header-property>
           </span>
         </p>
         <p class="experience-main-tags">
-          <i v-for="(keywords, keywordsIndex) in project.keywords" :key="keywordsIndex">
+          <i
+            v-for="(keywords, keywordsIndex) in project.keywords"
+            :key="keywordsIndex"
+          >
             <app-header-property
               v-html="keywords"
               type="span"
               class="text-black"
-              :properties="{ isArray: true, level_one: String(projectsIndex), level_two: 'keywords', level_three: String(keywordsIndex)}"
+              :properties="{
+                isArray: true,
+                level_one: String(projectsIndex),
+                level_two: 'keywords',
+                level_three: String(keywordsIndex)
+              }"
               filename="projects.yaml"
             ></app-header-property>
           </i>

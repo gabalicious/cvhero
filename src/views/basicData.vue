@@ -14,7 +14,7 @@
           @mouseover="isActive = true"
           @mouseleave="isActive = false"
         >
-          <i class="fas fa-bolt"></i>
+          <!-- <i class="fas fa-bolt"></i> -->
         </a>
 
         <b-modal

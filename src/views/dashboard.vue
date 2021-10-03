@@ -1,12 +1,12 @@
 <template>
   <div>
-    <navigation-header></navigation-header>
+    <navigation-header accent="danger"></navigation-header>
     <!-- <div
       class="text-white d-sm-block d-xl-none"
     >Viewport only available in 1200px width or wider. Widen screen or zoom out to see content.</div>-->
 
     <b-container class="bv-example-row">
-      <div class="bolt-container">
+      <div class="bolt-container text-primary">
         <a
           href="#"
           @click="toggleModal"

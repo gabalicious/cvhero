@@ -1,98 +1,17 @@
 <template>
-  <!-- Edit H1 -->
-  <h1
-    v-if="type === 'h1'"
+  <component
     class="header-top-item show-justin"
-    contenteditable
     @blur="onEdit"
     @keydown.enter="endEdit"
+    contenteditable
+    v-bind:is="type"
+    >{{ propertyValue }}</component
   >
-    {{ propertyValue }}
-  </h1>
-  <a
-    :href="formattedUrl"
-    target="_blank"
-    contenteditable
-    v-else-if="type === 'a'"
-    @blur="onEdit"
-    @keydown.enter="endEdit"
-    >{{ propertyValue }}</a
-  >
-  <li
-    v-else-if="type === 'li'"
-    @mouseenter="mouseEnter"
-    @mouseleave="mouseLeave"
-  >
-    <span
-      v-html="propertyValue"
-      :class="className"
-      contenteditable
-      @blur="onEdit"
-      @keydown.enter="endEdit"
-    ></span>
-    <span v-show="active">
-      <a href="#" v-on:click="makeToast()">
-        <i class="fas fa-plus-circle text-success"></i>
-      </a>
-      <a href="#" v-on:click="makeToast()">
-        <i class="fas fa-trash-alt text-danger"></i>
-      </a>
-    </span>
-  </li>
-  <p
-    v-html="propertyValue"
-    href
-    contenteditable
-    v-else-if="type === 'p'"
-    @blur="onEdit"
-    @keydown.enter="endEdit"
-  ></p>
-  <th
-    v-else-if="type === 'th'"
-    contenteditable
-    @blur="onEdit"
-    @keydown.enter="endEdit"
-    data-index="i"
-    data-key="name"
-    class="skillsTable-header-row-cell"
-  >
-    <span class="skillsTable-header-row-cell-fixpadding">{{
-      propertyValue
-    }}</span>
-  </th>
-  <td
-    v-else-if="type === 'td'"
-    contenteditable
-    @blur="onEdit"
-    @keydown.enter="endEdit"
-    data-index="i"
-    data-key="keywords"
-    data-index-second="j"
-  >
-    {{ propertyValue }}
-  </td>
-  <strong
-    v-else-if="type === 'strong'"
-    contenteditable
-    @blur="onEdit"
-    @keydown.enter="endEdit"
-    data-key="area"
-    >{{ propertyValue }}</strong
-  >
-  <!-- Edit Single level property span -->
-  <span
-    v-else
-    v-html="propertyValue"
-    :class="className"
-    contenteditable
-    @blur="onEdit"
-    @keydown.enter="endEdit"
-  ></span>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-let vm = Vue.component("app-header-property", {
+let vm = Vue.component("app-header-property-mongo", {
   computed: {
     // a computed getter
     currentProfile() {
@@ -144,13 +63,13 @@ let vm = Vue.component("app-header-property", {
     mouseLeave (evt) {
       this.active = false;
     },
-          makeToast(append = false) {
-        this.toastCount++
-        this.$bvToast.toast(`Feature Coming Soon`, {
-          title: 'Notification',
-          autoHideDelay: 5000,
-          appendToast: append
-        })
+    makeToast(append = false) {
+      this.toastCount++
+      this.$bvToast.toast(`Feature Coming Soon`, {
+        title: 'Notification',
+        autoHideDelay: 5000,
+        appendToast: append
+      })
       }
   },
   data: function() {

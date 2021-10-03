@@ -1,0 +1,104 @@
+- company: Freelance
+  position: IT Generalist
+  website: 'http://gaba.codes'
+  startDate: Oct 2018
+  endDate: Present
+  summary: Working with a mix of dev-ops and software projects.
+  highlights:
+    - 'Taking on a mix of IT, Application Support, and Software Engineer gigs.'
+    - 'Work with many environments including Mac, Windows, and Ubuntu/Linux.'
+    - "Configure server racks,\_set up small business networks, and run low voltage wirings as a contractor."
+    - >-
+      Working on a Restaurant Online ordering System subscription product to be
+      launched 2021.
+  notes: []
+  show: true
+- company: Zipari
+  position: Software Engineer
+  website: 'http://zipari.com'
+  startDate: Apr 2017
+  endDate: Oct 2018
+  summary: >-
+    Zipari is a startup helping health insurance companies modernize their
+    stack.
+  highlights:
+    - >-
+      Launched Zipari's Member Portal Product as part of the front-end product
+      team.
+    - >-
+      Built front end using of Angular 5, Webpack, TypeScript, postcss,
+      bootstrap, and SCSS.
+    - 'Worked on back end composed of Django, PostgreSQL, and Redis.'
+    - >-
+      Maintained and Updated deploy scripts with Jenkins for QA and production
+      deployments.
+  notes: []
+  show: true
+- company: Progyny
+  position: Software Engineer
+  website: 'http://progyny.com'
+  startDate: Apr 2016
+  endDate: Jan 2017
+  summary: >-
+    Progyny is a healthcare startup helping fertility labs select healthy
+    embryos through machine learning.
+  highlights:
+    - 'Built mobile app using SCSS, Angular, and Ionic hybrid mobile framework.'
+    - >-
+      Worked on Node.js, MongoDB, Express.js, and Passport.js stack on the
+      backend.
+    - >-
+      Created Bookings, Doctors, and Hospitals Rest APIs to integrate with
+      mobile app.
+  notes: []
+  show: true
+- company: Blue Zebra
+  position: IT Specialist
+  startDate: Apr 2015
+  endDate: Apr 2016
+  summary: "Blue Zebra is a IT Services company providing Technical Support,\_IT strategy and helpdesk support."
+  highlights:
+    - Troubleshoot issues with on-site server or cloud server infrastructure.
+    - Maintained and updated Linux server production environments with Salt.
+    - >-
+      Performed production deployments for Rails, Django, and Node.js
+      applications.
+  notes: []
+  show: true
+- company: Traiana
+  position: Application Support
+  startDate: Feb 2012
+  endDate: Sep 2014
+  summary: >-
+    Traiana is a Fin-tech company with a regulatory Sass platform called
+    Harmony.
+  highlights:
+    - >-
+      Configured client XML trade attributes and MQ connections within Traiana's
+      Harmony Sass Platform.
+    - >-
+      Used tools such as SQL and Excel to resolve issues for clients and
+      internal teams.
+    - >-
+      Built JavaScript app on my own time which meshed Salesforce data and
+      Client configuration data from Harmony to allow me to easily identify and
+      resolve issues with trades.
+  notes: []
+  show: true
+- company: Elite Interactive Group
+  position: System Engineer
+  startDate: Jan 2009
+  endDate: Jan 2012
+  summary: >-
+    Elite Media Graphics was a Brooklyn Design shop specializing in <b>Rails</b>
+    and <b>Wordpress</b> sites.
+  highlights:
+    - >-
+      Ghosted Windows and Mac OS Operating systems with company software and
+      network settings.
+    - 'Installed Hardware, Software and resolved issues from the e-ticket system.'
+    - >-
+      Deployed Rails and Wordpress applications to Linux production
+      environemnts.
+  notes: []
+  show: false
